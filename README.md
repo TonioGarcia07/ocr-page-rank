@@ -1,4 +1,4 @@
-# Page Rank
+# 🔍PageRank
 
 ### Setup
 
@@ -10,7 +10,7 @@
 
 - `hadoop jar hadoop-streaming.jar -input /out/part-00000 -output /maxs -mapper ./max_page_rank.py && hadoop fs -cat /maxs/part-00000`: to show the 20 top rresults
 
-## 20 tops results:
+## 20 tops results
 
 After the first iteration:
 
